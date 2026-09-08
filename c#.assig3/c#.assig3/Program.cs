@@ -14,22 +14,36 @@ class Program
             "Never heard of it" for anything else.*/
 
 
-            string title = "Refactoring";
+            //string title = "Refactoring";
 
-            switch (title)
-            {
-                case "Clean Code":
-                    Console.WriteLine("Great choice!");
-                    break;
+            //switch (title)
+            //{
+            //    case "Clean Code":
+            //        Console.WriteLine("Great choice!");
+            //        break;
 
-                case "Refactoring":
-                    Console.WriteLine("Nice pick!");
-                    break;
+            //    case "Refactoring":
+            //        Console.WriteLine("Nice pick!");
+            //        break;
 
-                default:
-                    Console.WriteLine("Never heard of it");
-                    break;
-            }
+            //    default:
+            //        Console.WriteLine("Never heard of it");
+            //        break;
+            //}
+
+            #endregion
+
+
+
+            #region Question 2
+
+            // Given int pages = 464;, use the ternary operator to store
+            // "Long Book" or "Short Book" into a variable sizeLabel
+            // (same rule as question 8: long if pages > 300).
+
+            int pages = 464;
+            string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
+            Console.WriteLine(sizeLabel);
 
             #endregion
 
