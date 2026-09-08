@@ -190,6 +190,20 @@ class Program
             // then Append() " - Updated" onto the same object.
             // Print the final result.
 
+            //StringBuilder books = new StringBuilder();
+
+            //books.Append("Book List");
+            //books.Append(" - Updated");
+
+            //Console.WriteLine(books);
+
+            #endregion
+
+            #region String Questions4
+
+            // Using the StringBuilder from the question above, use Replace()
+            // to change "Book List" into "Library". Print the result.
+
             StringBuilder books = new StringBuilder();
 
             books.Append("Book List");
@@ -197,8 +211,11 @@ class Program
 
             Console.WriteLine(books);
 
-            #endregion
+            books.Replace("Book List", "Library");
 
+            Console.WriteLine(books);
+
+            #endregion
 
 
 
