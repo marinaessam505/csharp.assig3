@@ -1,4 +1,6 @@
-﻿namespace c_.assig3
+﻿using System.Text;
+
+namespace c_.assig3
 {
 
 class Program
@@ -160,12 +162,12 @@ class Program
             // and store it in a new variable upperTitle. Print both title
             // and upperTitle to show that title did not change.
 
-            string title = "clean code";
+            //string title = "clean code";
 
-            string upperTitle = title.ToUpper();
+            //string upperTitle = title.ToUpper();
 
-            Console.WriteLine(title);
-            Console.WriteLine(upperTitle);
+            //Console.WriteLine(title);
+            //Console.WriteLine(upperTitle);
 
             #endregion
 
@@ -175,14 +177,27 @@ class Program
             // "Clean Code". Use ReferenceEquals() to check if they point to
             // the same object in memory.
 
-            string title1 = "Clean Code";
-            string title2 = "Clean Code";
+            //string title1 = "Clean Code";
+            //string title2 = "Clean Code";
 
-            Console.WriteLine(ReferenceEquals(title1, title2));
+            //Console.WriteLine(ReferenceEquals(title1, title2));
 
             #endregion
 
+            #region String Questions3
 
+            // Create a StringBuilder, Append() the text "Book List",
+            // then Append() " - Updated" onto the same object.
+            // Print the final result.
+
+            StringBuilder books = new StringBuilder();
+
+            books.Append("Book List");
+            books.Append(" - Updated");
+
+            Console.WriteLine(books);
+
+            #endregion
 
 
 
