@@ -139,17 +139,36 @@ class Program
             // Using the same books array, print every title except
             // "The Pragmatic Programmer" (skip it with continue, don't stop the loop).
 
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-            foreach (string book in books)
-            {
-                if (book == "The Pragmatic Programmer")
-                {
-                    continue;
-                }
+            //foreach (string book in books)
+            //{
+            //    if (book == "The Pragmatic Programmer")
+            //    {
+            //        continue;
+            //    }
 
-                Console.WriteLine(book);
-            }
+            //    Console.WriteLine(book);
+            //}
+
+            #endregion
+
+
+            #region String Questions1
+
+
+
+
+            // Declare string title = "clean code". Call title.ToUpper()
+            // and store it in a new variable upperTitle. Print both title
+            // and upperTitle to show that title did not change.
+
+            string title = "clean code";
+
+            string upperTitle = title.ToUpper();
+
+            Console.WriteLine(title);
+            Console.WriteLine(upperTitle);
 
             #endregion
 
