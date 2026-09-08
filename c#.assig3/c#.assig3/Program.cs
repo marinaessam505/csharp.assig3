@@ -204,16 +204,32 @@ class Program
             // Using the StringBuilder from the question above, use Replace()
             // to change "Book List" into "Library". Print the result.
 
-            StringBuilder books = new StringBuilder();
+            //StringBuilder books = new StringBuilder();
 
-            books.Append("Book List");
-            books.Append(" - Updated");
+            //books.Append("Book List");
+            //books.Append(" - Updated");
 
-            Console.WriteLine(books);
+            //Console.WriteLine(books);
 
-            books.Replace("Book List", "Library");
+            //books.Replace("Book List", "Library");
 
-            Console.WriteLine(books);
+            //Console.WriteLine(books);
+
+            #endregion
+
+
+            #region String Questions5
+
+            // Given string title = "Clean Code"; and int pages = 464;,
+            // build the sentence "Book: Clean Code, Pages: 464"
+            // using the + operator.
+
+            string title = "Clean Code";
+            int pages = 464;
+
+            string sentence = "Book: " + title + ", Pages: " + pages;
+
+            Console.WriteLine(sentence);
 
             #endregion
 
