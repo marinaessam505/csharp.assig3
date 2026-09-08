@@ -224,10 +224,24 @@ class Program
             // build the sentence "Book: Clean Code, Pages: 464"
             // using the + operator.
 
+            //string title = "Clean Code";
+            //int pages = 464;
+
+            //string sentence = "Book: " + title + ", Pages: " + pages;
+
+            //Console.WriteLine(sentence);
+
+            #endregion
+
+
+            #region string Question6
+
+            // Build the same sentence as above, but using string interpolation ($"...").
+
             string title = "Clean Code";
             int pages = 464;
 
-            string sentence = "Book: " + title + ", Pages: " + pages;
+            string sentence = $"Book: {title}, Pages: {pages}";
 
             Console.WriteLine(sentence);
 
